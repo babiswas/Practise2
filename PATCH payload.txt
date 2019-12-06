@@ -1,0 +1,43 @@
+{
+  "links": {
+    "self": "https://captivateprimestage1.adobe.com/primeapi/v2/user"
+  },
+  "data": {
+    "id": "6943078",
+    "type": "user",
+    "attributes": {
+      "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImU2ZDAyM2NlLWZiNjYtNDZiNS04ZTUxLWMxMmVkMGI4MjE4MSIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiYzMyMzNkYzQ3ZWU5YjkzMDc2YzcxNjYwNjgzM2RjYmFiOTUyZTZmYSIsImV4cCI6MTU3NTk3Mzc1NiwicmlkIjoiMzMzMTEiLCJpYXQiOjE1NzUzNjg5NTYsImNpZCI6IjEifQ.n1YheAo0inWKCQh3bQVOoWjcGjhb4WBCYa4Io8rwJpI",
+      "email": "mp@pp.com",
+      "fields": {
+        "tyy": "belooo mello",
+        "bnnnn": "a"
+      },
+      "gamificationEnabled": true,
+      "lastLoginDate": "2019-12-03T10:27:00.000Z",
+      "name": "Mppp",
+      "pointsEarned": 0,
+      "profile": "learner",
+      "roles": [
+        "Learner",
+        "Role Config Role"
+      ],
+      "state": "ACTIVE",
+      "userType": "Internal",
+      "userUniqueId": "GHHHHH"
+    },
+    "relationships": {
+      "account": {
+        "data": {
+          "id": "3599",
+          "type": "account"
+        }
+      },
+      "manager": {
+        "data": {
+          "id": "5307288",
+          "type": "user"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+mysql
+pgsql
+django orm
+sqlalchemy
+mongodb
+boto library
+async
+csv
+thread
+process
+os
+regex
+numpy
+pandas
+opencv
+sklearn
+django
+socket

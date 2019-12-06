@@ -1,0 +1,46 @@
+from math import log10
+
+def getvalue(str1,index1,length):
+   if (index1+length>len(str1)):
+        return -1
+   value=0
+   for j in range(0,length):
+     c=int(str1[int(index1)+j])
+     if c<0 or c>9:
+        return -1
+     value=value*10+c
+   return value
+
+
+
+def find_missing_number(str1,max_digit):
+    number=0
+    for i in range(1,max_digit+1):
+       n=getvalue(str1,0,i)
+       missing=-1
+       fail=False
+       j=i
+       while j<len(str1):
+         if missing==-1 and getvalue(str1,j,1+int(log10(n+2)))==n+2:
+            missing=n+1
+            n+=2
+            number=1+int(log10(n+2))
+         elif getvalue(str1,j,1+int(log10(n+1)))==n+1:
+            n=n+1
+            number=1+int(log10(n+1))
+         else:
+            fail=True
+            break
+         j=j+number
+       if not fail:
+          return missing
+    return -1
+
+if __name__=="__main__":
+  print(find_missing_number("99101102",6))
+
+
+
+
+
+   
